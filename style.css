@@ -1,0 +1,21 @@
+
+
+#title {
+  margin: 0;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+
+#contents ol{
+  border-right: 1px solid black;
+  width: 100px;
+  margin: 0;
+  padding: 20px;
+}
+#contents {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+#article {
+  padding-left: 25px;
+}
